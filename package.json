@@ -1,0 +1,22 @@
+{
+    "name": "ogeHttp",
+    "version": "0.0.5",
+    "description": "http module for OGE",
+    "readme": "ERROR: No README data found!",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mint-lemon-eucalyptus/oge.Http.git"
+    },
+    "author": "mint-lemon",
+    "dependencies": {
+        "express": "3.3.5",
+        "ejs-locals": "*",
+        "ejs": "*"
+    },
+
+    "license": "ISC"
+}
