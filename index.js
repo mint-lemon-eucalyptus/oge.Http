@@ -81,7 +81,7 @@ Http.prototype.getVar = function (varName) {
     return this.app.get(varName);
 }
 Http.prototype.start = function () {
-    if (typeof  this.config.port === "number") {
+    if (this.config.port) {
         this.app.listen(this.config.port, this.config.ipAddress);
     } else {
         throw Error('port is not set');
